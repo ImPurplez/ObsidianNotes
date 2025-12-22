@@ -23,14 +23,24 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
+  generate-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gacts/directory-listing@v1.0.3
+        with:
+          target: ./D&D
+          footer: https://obsidian.impurpz.xyz
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./D&D
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps: 
-      - name: Directory Listing
-        uses: gacts/directory-listing@v1.0.3    
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
