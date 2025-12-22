@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"715f6b71e73f25cf","type":"group","x":-1080,"y":-1660,"width":916,"height":210,"label":"Known Timeline"},
+		{"id":"cb26f42cbf4b8be5","type":"file","file":"a very CYRA Christmas.md","x":-1520,"y":-1720,"width":400,"height":367},
+		{"id":"35e257ff916d32b2","type":"text","text":"Rulius","x":-840,"y":-1309,"width":107,"height":60},
+		{"id":"8fba70be7ef34aa6","type":"text","text":"![[Pasted image 20251221164008.png]]","x":-900,"y":-1262,"width":746,"height":580},
+		{"id":"e3988829776ba692","type":"text","text":"People already in the room:\nLaw, Vince, Caldewin, Yara.","x":-1058,"y":-832,"width":250,"height":72},
+		{"id":"9d6dbe3990f84145","type":"text","text":"Kaida, the eccentric he is, drinks the poison glass and makes an accusation. He is now stone.","x":-965,"y":-1092,"width":232,"height":120},
+		{"id":"61a61bae35f43862","type":"text","text":"Enchanted, Stained with Bird's Blood","x":-623,"y":-1060,"width":193,"height":50},
+		{"id":"ac9d44ac4084fcb5","type":"text","text":"DEAD FALCON found in: PLANT","x":-420,"y":-1321,"width":164,"height":83},
+		{"id":"8bda99c25286d5f3","type":"text","text":"Avador, Pride (Pyrus)","x":-280,"y":-1238,"width":156,"height":50},
+		{"id":"5cc1993322fbc836","type":"text","text":"Evadora's Glass","x":-420,"y":-1160,"width":122,"height":68},
+		{"id":"e4511f91898d86c8","type":"text","text":"Kaida","x":-222,"y":-1060,"width":98,"height":60},
+		{"id":"b05f350211ed730f","type":"text","text":"Each Hallway connected with every other","x":-463,"y":-640,"width":250,"height":60},
+		{"id":"4b8a562b6f2d4e97","type":"text","text":"Paradise Students (Us)","x":-293,"y":-742,"width":182,"height":60},
+		{"id":"fd1409ebe9eed7fe","type":"text","text":"Gloves: Evadora, Vince, Law, Caldowin, Rulis","x":-803,"y":-610,"width":250,"height":60},
+		{"id":"d7114ab47ad1431f","type":"text","text":"Evadora was in charge of Fireworks","x":-1058,"y":-580,"width":250,"height":60},
+		{"id":"0afd5160d0ab40d6","type":"text","text":"Law is crying like a motherfucker","x":-803,"y":-550,"width":250,"height":60},
+		{"id":"c7da700f290e8936","type":"text","text":"Bird freaked out, Knocked down Glass.","x":-577,"y":-1530,"width":250,"height":60},
+		{"id":"395e4cde359dcd3c","type":"text","text":"Bird Killed by suspect","x":-354,"y":-1640,"width":129,"height":60},
+		{"id":"f126fa9e6eb03da4","x":-1050,"y":-1640,"width":200,"height":50,"type":"text","text":"Fireworks go off"},
+		{"id":"e47e1556226932df","type":"text","text":"Glass poisioned","x":-870,"y":-1530,"width":170,"height":60},
+		{"id":"f4fbd25d24a84129","type":"text","text":"Axel Stoned","x":-717,"y":-1635,"width":140,"height":50},
+		{"id":"365c6f6c54c13b02","type":"text","text":"Axel: is frozen in stone. He seems that he was drinking something","x":-678,"y":-1204,"width":238,"height":90},
+		{"id":"10eef46bb19f5755","type":"file","file":"Investiagtion.md","x":-1520,"y":-1232,"width":420,"height":400},
+		{"id":"03eff3bceaebbeb4","type":"text","text":"Thorpe's Family is completely ruined from the arrest of his father","x":-1449,"y":-651,"width":298,"height":63},
+		{"id":"d3c43f0bffcc46c5","type":"text","text":"Rulius and Caldowin/Evadora\nwhich had an engagement that fell through","x":-1449,"y":-796,"width":259,"height":85},
+		{"id":"58fc76487a40fafc","type":"text","text":"## Suspects:\n- ~~Thorpe~~\n- **Evadora**\n- ~~Yara (Didn't Put Guards up)~~\n- ~~Pride (Possibly)~~","x":-700,"y":-1453,"width":269,"height":204},
+		{"id":"af8952a6d93d3631","x":-111,"y":-1175,"width":369,"height":175,"type":"text","text":"## MURDERER WAS EVADORA.\n\nShe Poisoned Axel's glass with the stone potion that turns him into a stone statue and scuffles with the bird"}
+	],
+	"edges":[
+		{"id":"02b16de814e17891","fromNode":"cb26f42cbf4b8be5","fromSide":"bottom","toNode":"8fba70be7ef34aa6","toSide":"left"},
+		{"id":"1b164553cfcfbce9","fromNode":"e47e1556226932df","fromSide":"top","toNode":"f4fbd25d24a84129","toSide":"left"},
+		{"id":"e9107dd632f7275d","fromNode":"f4fbd25d24a84129","fromSide":"bottom","toNode":"c7da700f290e8936","toSide":"left"},
+		{"id":"c2d78f3a8fd33733","fromNode":"c7da700f290e8936","fromSide":"top","toNode":"395e4cde359dcd3c","toSide":"left"},
+		{"id":"94c2e67ec1e26664","fromNode":"b05f350211ed730f","fromSide":"left","toNode":"8fba70be7ef34aa6","toSide":"bottom"},
+		{"id":"20d61cbd98692fd3","fromNode":"f126fa9e6eb03da4","fromSide":"bottom","toNode":"e47e1556226932df","toSide":"left"},
+		{"id":"ed6490b3e6d93432","fromNode":"58fc76487a40fafc","fromSide":"right","toNode":"395e4cde359dcd3c","toSide":"bottom"},
+		{"id":"f172ce07552d8df4","fromNode":"d3c43f0bffcc46c5","fromSide":"bottom","toNode":"03eff3bceaebbeb4","toSide":"top"}
+	]
+}
